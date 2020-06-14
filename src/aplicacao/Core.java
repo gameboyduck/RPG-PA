@@ -11,8 +11,10 @@ public class Core {
 		
 		Random gerar = new Random();
 		
-		System.out.println("\n\n###### Fábrica de Famílias de Monstros ######"
-				+"\n\n####Gerando 25 monstros aleatórios###\n\n");
+		System.out.println("\n\n###### Fï¿½brica de Famï¿½lias de Monstros ######"
+				+"\n\n####Gerando 25 monstros aleatï¿½rios###\n\n");
+		
+		
 		
 		
 		for(int i=0; i<25; i++) {

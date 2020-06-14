@@ -1,5 +1,6 @@
 package componentesdopersonagem;
 
-public class Sinal {
-	
+public enum Sinal {
+	Bruxo, Formação, Estudante
 }
+
