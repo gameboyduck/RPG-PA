@@ -15,7 +15,8 @@ public abstract class Terreno {
 	public void setTerreno(String terreno) {
 		this.terreno = terreno;
 	}
-	public abstract String exibirInfo();
+	
+	public abstract String exibirTerreno();
 
 
 }

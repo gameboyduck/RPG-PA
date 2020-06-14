@@ -8,12 +8,11 @@ public class Campo extends Terreno {
 			setTerreno(terreno);
 			
 		} catch (Exception e) {
-			System.out.println(e.getMessage()+ "\nMonstro n�o pode ser criado");
+			System.out.println(e.getMessage()+ "\nTerreno nao pode ser criado");
 		}
-		
-		public String exibirInfo() {
-			
-			return "Terreno: "+this.getTerreno();
-		}
+	}
+	public String exibirTerreno() {
+		// TODO Auto-generated method stub
+		return "Terreno: "+ this.getTerreno();
 	}
 }
