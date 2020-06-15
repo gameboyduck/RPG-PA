@@ -2,7 +2,7 @@ package campodebatalha;
 
 public class Pantano  extends Terreno{
 
-	public Pantano (String terreno) {
+	public Pantano (int id, String terreno) {
 		super("Pantano");
 		try {
 			setTerreno(terreno);

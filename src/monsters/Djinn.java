@@ -14,7 +14,7 @@ public class Djinn extends Monster {
 			setTerreno(terreno);
 			
 		} catch (Exception e) {
-			System.out.println(e.getMessage()+ "\nMonstro não pode ser criado");
+			System.out.println(e.getMessage()+ "\nMonstro nï¿½o pode ser criado");
 		}
 	}
 

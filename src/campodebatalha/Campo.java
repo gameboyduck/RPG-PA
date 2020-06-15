@@ -2,8 +2,9 @@ package campodebatalha;
 
 public class Campo extends Terreno {
 	
-	public Campo (String terreno) {
+	public Campo (int id, String terreno) {
 		super("Campo");
+		
 		try {
 			setTerreno(terreno);
 			
